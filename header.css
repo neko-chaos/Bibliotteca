@@ -5,17 +5,21 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    }
-    .cabeçalho{
+}
+
+.cabeçalho{
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
-    .container{
+    position: relative;
+}
+
+.container{
     display: flex;
     align-items: center;
-    }
-    .container__imagem{
+}
+
+.container__imagem{
     padding: 1em;
-    }
+}
